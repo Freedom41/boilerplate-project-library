@@ -77,8 +77,11 @@
       $(function() {
        $('#commentTest').submit(function(){
          var id = $('#idinputtest').val();
+         var pp = $('#idinputtest').val();
+         console.log(pp)
          $(this).attr('action', "/api/books/" + id);
        });
+     
       });
    </script>
   </body>

@@ -3,11 +3,13 @@
 
 Project Personal Library
 
-1) ADD YOUR MongoDB connection string to .env without quotes as db
-    `example: DB=mongodb://admin:pass@1234.mlab.com:1234/fccpersonallib`
-2) SET NODE_ENV to `test` without quotes
-3) You need to create all routes within `routes/api.js`
-4) You will add any security features to `server.js`
-5) You will create all of the functional tests in `tests/2_functional-tests.js`
+1) Project available on `https://project-library-free41.glitch.me/`
+2) One can add a book, add comments about a book and delete the book
+3) Using the /api/books route will give you an Array of all the books
+4) Delete option, either by sending the id or by clicking on delete all.
+5) Further info on `https://project-library-free41.glitch.me/`
+
+
+
 
 
